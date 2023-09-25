@@ -7,11 +7,15 @@ import com.trungphap.backend.entity.Product;
 
 public interface ProductService {
    public Product createProduct(Product Product);
+
    public Product getProductById(Long ProductId);
+
    public Page<Product> getAllProducts(Pageable pageable);
+
    public Product updateProduct(Product Product);
+
    public void deleteProduct(Long ProductId);
    // public List<Product> getProductsByCondition(String title,Long category);
 
-
 }
+// ahhasfkjhaskjhahsjkahajkhjkhjahsdfjkahjkfjkhajksfhjkahhkjahfjkh
